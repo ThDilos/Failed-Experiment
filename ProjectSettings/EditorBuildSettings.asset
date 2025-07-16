@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu Page/Main Menu.unity
+    guid: 5ee4a90fc9bee014ea724701dead04f6
+  - enabled: 0
+    path: Assets/Scenes/Start Cutscene.unity
+    guid: d2c521b988dde7d40b4d9ff8fea77654
+  - enabled: 1
+    path: Assets/Scenes/NEW Cutscene1.unity
+    guid: 1b9f3df3906d3bd4b8f52ff8d6449fe6
+  - enabled: 1
+    path: Assets/Scenes/Starting Lab.unity
+    guid: 43d97a60c49f6904aa6204efc288fa47
+  - enabled: 0
+    path: Assets/Scenes/Lab-Forest Transition.unity
+    guid: bedbd34aeb2f6854b8e9cf4e5f067586
+  - enabled: 1
+    path: Assets/Scenes/NEW Cutscene 2.unity
+    guid: 933af29173fbcea4aa3d05c338f718f8
+  - enabled: 1
+    path: Assets/Scenes/The Forest.unity
+    guid: 2bf2e114501575b4c833e1790308de31
+  m_configObjects: {}

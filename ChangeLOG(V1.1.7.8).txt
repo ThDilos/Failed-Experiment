@@ -1,0 +1,6 @@
+Change LOG (Vidk)
+
+Using the new input system.
+Included the quest system and quest log (Q)
+Remove Button.cs to replaced with ButtonTrigger as Button is a unity event class
+
