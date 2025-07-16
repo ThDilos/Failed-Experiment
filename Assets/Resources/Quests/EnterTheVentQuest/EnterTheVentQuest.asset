@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b854bdf2838384aa35b9f2c1cf5a00, type: 3}
+  m_Name: EnterTheVentQuest
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: EnterTheVentQuest
+  displayName: Enter The Vent
+  levelRequirement: 0
+  questPrerequisites:
+  - {fileID: 11400000, guid: 592a9646b31435c4ba0bc1ef9552041e, type: 2}
+  questStepPrefabs:
+  - {fileID: 8105437098171350149, guid: 74043d96ad74bfe4c92b1e3e75baffec, type: 3}
+  - {fileID: 4024944039583836420, guid: 91683c87e3f125944a0a241f5eefdb43, type: 3}
+  itemReward: 0
+  gaugeReward: 0

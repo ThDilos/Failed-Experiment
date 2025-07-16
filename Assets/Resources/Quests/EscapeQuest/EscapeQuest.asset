@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b854bdf2838384aa35b9f2c1cf5a00, type: 3}
+  m_Name: EscapeQuest
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: EscapeQuest
+  displayName: Escape the Lab!
+  levelRequirement: 0
+  questPrerequisites:
+  - {fileID: 11400000, guid: 9ba2e4d89f586564b95c74aa8c5f2b87, type: 2}
+  questStepPrefabs:
+  - {fileID: 4148100993743072294, guid: 779676eae4230904a9957f80387c4199, type: 3}
+  - {fileID: 7184435247868036361, guid: 9c5bbfa913a5b3344b6fdbcae4adee59, type: 3}
+  itemReward: 0
+  gaugeReward: 0

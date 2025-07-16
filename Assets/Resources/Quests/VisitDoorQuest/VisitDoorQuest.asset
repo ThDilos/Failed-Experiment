@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b854bdf2838384aa35b9f2c1cf5a00, type: 3}
+  m_Name: VisitDoorQuest
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: VisitDoorQuest
+  displayName: Open the Door!
+  levelRequirement: 0
+  questPrerequisites:
+  - {fileID: 11400000, guid: b309ee1c476aa36468c54bd2babc31e0, type: 2}
+  questStepPrefabs:
+  - {fileID: 7497650245148335399, guid: 4163fcebacf787446959d188812d2e5f, type: 3}
+  itemReward: 0
+  gaugeReward: 0
