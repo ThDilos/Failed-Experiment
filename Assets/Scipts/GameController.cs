@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
@@ -16,7 +15,6 @@ public class GameController : MonoBehaviour
     {
         // Limit Framerate
         try { frameRate = PlayerPrefs.GetInt("FPS"); } catch { };
-        Debug.Log("Current FPS: " + frameRate);
         QualitySettings.vSyncCount = 0; // Set vSyncCount to 0 so that using .targetFrameRate is enabled.
         Application.targetFrameRate = frameRate; // Default fps is set to 60, so that your GPU won't scream eve
     }
