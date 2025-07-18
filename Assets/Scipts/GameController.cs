@@ -95,7 +95,7 @@ public class GameController : MonoBehaviour
         {
             myLog += mylog;
         }
-        if (myLogQueue.Count > 30) {
+        if (myLogQueue.Count > 10) {
             myLogQueue.Dequeue();
         }
         if (debugLogs != null) debugLogs.text = myLog;
