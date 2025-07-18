@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -18,7 +16,11 @@ public class FloatingText : MonoBehaviour
     void Start()
     {
         mainCam = Camera.main.transform;
-        worldSpaceCanvas = GameObject.FindObjectOfType<Canvas>().transform;
+        Canvas[] allCanvas = GameObject.FindObjectsOfType<Canvas>();
+        foreach (Canvas c in allCanvas)
+        {
+            if (c.gameObject.name == "WorldSpaceCanvas") worldSpaceCanvas = c.transform;
+        }
         text = GetComponent<TMP_Text>();
         // Set its parent to worldSpaceCanvas automatically
         transform.SetParent(worldSpaceCanvas);
@@ -34,6 +36,9 @@ public class FloatingText : MonoBehaviour
         }
         float camCloseness = Vector3.Distance(Camera.main.transform.position, transform.position);
         camCloseness = (camCloseness - 2.0f) / hideDistanceModifier;
-        text.alpha = Mathf.Clamp(camCloseness, 0.0f, 1.0f);
+        if (text != null)
+        {
+            text.alpha = Mathf.Clamp(camCloseness, 0.0f, 1.0f);
+        }
     }
 }
